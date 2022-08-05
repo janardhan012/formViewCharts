@@ -3,7 +3,7 @@ entries:
   ibm-b2bi-prod:
   - apiVersion: v2
     appVersion: 6.1.2.0
-    created: "2022-08-05T09:22:00.593001851+05:30"
+    created: "2022-08-05T12:00:05.111542164+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -18,7 +18,7 @@ entries:
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.1.2?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms http://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-MILI-BQXF4G&title=IBM%20Sterling%20B2B%20Integrator%20Certified%20Container%20V6.1.2"
-    digest: 4aa426b3944866c8d5db9bab75ed004c2dc4f0a53b5a659e368f625e9de0a036
+    digest: 29751afa1ff561117c01bdec301485c5f11d67291b3679384439ac5bb9b6e71a
     home: https://www.ibm.com/docs/en/b2b-integrator/6.1.2
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -41,4 +41,4 @@ entries:
     urls:
     - ibm-b2bi-prod-2.1.0.tgz
     version: 2.1.0
-generated: "2022-08-05T09:22:00.553954343+05:30"
+generated: "2022-08-05T12:00:05.068737455+05:30"
