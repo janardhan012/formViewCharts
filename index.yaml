@@ -3,7 +3,7 @@ entries:
   ibm-b2bi-prod:
   - apiVersion: v2
     appVersion: 6.1.2.1
-    created: "2022-12-06T20:23:05.143319737+05:30"
+    created: "2022-12-07T11:14:11.136736069+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -39,12 +39,12 @@ entries:
     name: ibm-b2bi-prod
     type: application
     urls:
-    - imdad000.github.io/ibm-b2bi-prod-2.1.1.tgz
+    - ibm-b2bi-prod-2.1.1.tgz
     version: 2.1.1
   ibm-sfg-prod:
   - apiVersion: v2
     appVersion: 6.1.2.0
-    created: "2022-12-06T20:23:05.180135214+05:30"
+    created: "2022-12-07T11:14:11.161896249+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -79,6 +79,6 @@ entries:
     name: ibm-sfg-prod
     type: application
     urls:
-    - imdad000.github.io/ibm-sfg-prod-2.1.0.tgz
+    - ibm-sfg-prod-2.1.0.tgz
     version: 2.1.0
-generated: "2022-12-06T20:23:05.114538349+05:30"
+generated: "2022-12-07T11:14:11.11075805+05:30"
