@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.1.2.2
-    created: "2023-02-23T14:31:31.647807309+05:30"
+    created: "2023-02-28T15:52:48.007920631+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -20,7 +20,7 @@ entries:
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.1.2?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms http://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-MZIA-CCSL2W&title=IBM%20Sterling%20B2B%20Integrator%20Certified%20Container%20V6.1.2"
-    digest: 009ba700fe61c451dbeedede72a3cb740b19499f75562a90e590c5cccbc5893a
+    digest: 4179db225073e17ebeb3f72086bd1646b09c97b0b3d4073043658c2c9e878ba8
     home: https://www.ibm.com/docs/en/b2b-integrator/6.1.2
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -45,29 +45,28 @@ entries:
     version: 2.1.2
   ibm-sfg-prod:
   - annotations:
-      charts.openshift.io/name: IBM Sterling B2B Integrator
+      charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
     appVersion: 6.1.2.2
-    created: "2023-02-23T14:31:31.681636275+05:30"
+    created: "2023-02-28T15:52:48.109242798+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
       repository: '@sch'
       version: 1.2.16
-    description: IBM Sterling B2B Integrator helps companies integrate complex B2B
-      EDI processes with their partner communities. Organizations get a single, flexible
-      B2B platform that supports most communication protocols, helps secure your B2B
-      network and data, and achieves high-availability operations. The offering enables
-      companies to reduce costs by consolidating EDI and non-EDI any-to-any transmissions
-      on a single B2B platform and helps automate B2B processes across enterprises,
-      while providing governance and visibility over those processes. Documentation
-      For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.1.2?topic=integrator-installing-sterling-b2b-using-certified-container.
-      License By installing this product you accept the license terms http://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-MZIA-CCSL2W&title=IBM%20Sterling%20B2B%20Integrator%20Certified%20Container%20V6.1.2"
-    digest: 9d21f029c070372e7ec88c68331b2c05e636c26aed37c32d312131f49ff307c2
+    description: IBM Sterling File Gateway lets organizations transfer files between
+      partners by using different protocols, conventions for naming files, and file
+      formats. A scalable and security-enabled gateway, Sterling File Gateway enables
+      companies to consolidate all their internet-based file transfers on a single
+      edge gateway, which helps secure your B2B collaboration network and the data
+      flowing through it. Documentation For additional details regarding install parameters
+      check https://www.ibm.com/docs/en/b2b-integrator/6.1.2?topic=integrator-installing-sterling-b2b-using-certified-container.
+      License By installing this product you accept the license terms http://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-MZIA-CCSKXJ&title=IBM%20Sterling%20File%20Gateway%20Certified%20Container%20V6.1.2"
+    digest: e30ce3adfbf287028123192f7100540c93ecdc250e665bce1c17df8779364495
     home: https://www.ibm.com/docs/en/b2b-integrator/6.1.2
-    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
+    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-sfg-icon.png
     keywords:
-    - b2bi
+    - sfg
     - b2b
     - mft
     - sterling
@@ -86,4 +85,4 @@ entries:
     urls:
     - ibm-sfg-prod-2.1.2.tgz
     version: 2.1.2
-generated: "2023-02-23T14:31:31.607292488+05:30"
+generated: "2023-02-28T15:52:47.904624718+05:30"
