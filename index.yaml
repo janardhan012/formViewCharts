@@ -1,16 +1,19 @@
 apiVersion: v1
 entries:
   ibm-b2bi-prod:
-  - annotations:
-      charts.openshift.io/name: IBM Sterling B2B Integrator
-    apiVersion: v2
-    appVersion: 6.1.2.2
-    created: "2023-02-28T15:52:48.007920631+05:30"
+  - apiVersion: v2
+    appVersion: 6.2.0.0
+    created: "2023-04-14T13:06:55.579415409+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
       repository: '@sch'
       version: 1.2.16
+    - alias: documentService
+      condition: documentService.enabled
+      name: ibm-document-service-prod
+      repository: ""
+      version: 1.0.0
     description: IBM Sterling B2B Integrator helps companies integrate complex B2B
       EDI processes with their partner communities. Organizations get a single, flexible
       B2B platform that supports most communication protocols, helps secure your B2B
@@ -20,7 +23,7 @@ entries:
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.1.2?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms http://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-MZIA-CCSL2W&title=IBM%20Sterling%20B2B%20Integrator%20Certified%20Container%20V6.1.2"
-    digest: 4179db225073e17ebeb3f72086bd1646b09c97b0b3d4073043658c2c9e878ba8
+    digest: c9f6e05b7acfe208512f761743616d8ced5e1395953c073bcedc0bd989887e44
     home: https://www.ibm.com/docs/en/b2b-integrator/6.1.2
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -35,20 +38,20 @@ entries:
     - Automation
     - RHOCP
     - Other
-    kubeVersion: '>=1.23'
+    kubeVersion: '>=1.21'
     maintainers:
     - name: IBM
     name: ibm-b2bi-prod
     type: application
     urls:
-    - ibm-b2bi-prod-2.1.2.tgz
-    version: 2.1.2
+    - ibm-b2bi-prod-2.1.1.tgz
+    version: 2.1.1
   ibm-sfg-prod:
   - annotations:
       charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
     appVersion: 6.1.2.2
-    created: "2023-02-28T15:52:48.109242798+05:30"
+    created: "2023-04-14T13:06:55.699351859+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -85,4 +88,4 @@ entries:
     urls:
     - ibm-sfg-prod-2.1.2.tgz
     version: 2.1.2
-generated: "2023-02-28T15:52:47.904624718+05:30"
+generated: "2023-04-14T13:06:55.272567077+05:30"
