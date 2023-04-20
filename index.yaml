@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.1.2.2
-    created: "2023-04-18T13:10:53.001191057+05:30"
+    created: "2023-04-20T11:46:29.766579548+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -25,7 +25,7 @@ entries:
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.1.2?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms http://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-MZIA-CCSL2W&title=IBM%20Sterling%20B2B%20Integrator%20Certified%20Container%20V6.1.2"
-    digest: 1ecd28550619f06f3bee654ab9e2a9d974976f07aa7063136864342a85ab91f4
+    digest: 9283ecc0fa4954d0e5ac8e35f20e5c2106c0121047188772fbbcf789606c0300
     home: https://www.ibm.com/docs/en/b2b-integrator/6.1.2
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -53,7 +53,7 @@ entries:
       charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
     appVersion: 6.1.2.2
-    created: "2023-04-18T13:10:53.033039251+05:30"
+    created: "2023-04-20T11:46:30.097812196+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -90,4 +90,4 @@ entries:
     urls:
     - ibm-sfg-prod-2.1.2.tgz
     version: 2.1.2
-generated: "2023-04-18T13:10:52.959558733+05:30"
+generated: "2023-04-20T11:46:29.618709388+05:30"
